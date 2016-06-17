@@ -77,6 +77,8 @@ public class TreeNodeArchitecture {
                 add(new TreeNode("#java_jdbc_connection", new ArrayList<TreeNode>()));
                 add(new TreeNode("#java_database_connection", new ArrayList<TreeNode>()));
                 add(new TreeNode("#Java_Constructor_Feed", new ArrayList<TreeNode>()));
+                add(new TreeNode("#Java_Runnable_Interface", new ArrayList<TreeNode>()));
+
             }});
 
             add(new TreeNode("Coding QA", new ArrayList<TreeNode>()) {{
