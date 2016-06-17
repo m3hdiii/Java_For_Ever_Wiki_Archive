@@ -19,6 +19,8 @@ public class TreeNodeArchitecture {
                 add(new TreeNode("#java_data_structure", new ArrayList<TreeNode>()));
                 add(new TreeNode("#java_algorithm", new ArrayList<TreeNode>()));
                 add(new TreeNode("#javafx_book", new ArrayList<TreeNode>()));
+                add(new TreeNode("#JVM_Principles", new ArrayList<TreeNode>()));
+                add(new TreeNode("#java_performance", new ArrayList<TreeNode>()));
             }});
 
             add(new TreeNode("Software Engineering", new ArrayList<TreeNode>()) {{
@@ -93,6 +95,10 @@ public class TreeNodeArchitecture {
                 add(new TreeNode("#JPanel_Background", new ArrayList<TreeNode>()));
                 add(new TreeNode("#Classes_Which_Implement_One_Interface", new ArrayList<TreeNode>()));
                 add(new TreeNode("#Annotation_Scanning", new ArrayList<TreeNode>()));
+            }});
+
+            add(new TreeNode("Android QA", new ArrayList<TreeNode>()) {{
+                add(new TreeNode("#how_build_and_run_androidApp_faster", new ArrayList<TreeNode>()));
             }});
 
             add(new TreeNode("relating topics", new ArrayList<TreeNode>()) {{
@@ -227,6 +233,7 @@ public class TreeNodeArchitecture {
             add(new TreeNode("#Java8", new ArrayList<TreeNode>()));
             add(new TreeNode("#port_to_java_8", new ArrayList<TreeNode>()));
             add(new TreeNode("#JVM_Architecture", new ArrayList<TreeNode>()));
+            add(new TreeNode("#java_memory_usage_concepts", new ArrayList<TreeNode>()));
             add(new TreeNode("#JavaOne_Keynote_Conference_2015", new ArrayList<TreeNode>()));
             add(new TreeNode("#OAUTH2", new ArrayList<TreeNode>()));
         }});
